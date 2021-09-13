@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragment.FilterFragment">
+
+    <CheckBox
+        android:id="@+id/chckFHAZ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Front Hazard Avoidance Camera" />
+
+    <CheckBox
+        android:id="@+id/chckRHAZ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rear Hazard Avoidance Camera" />
+
+    <CheckBox
+        android:id="@+id/chckMAST"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mast Camera" />
+
+    <CheckBox
+        android:id="@+id/chckCHEMCAM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chemistry and Camera Complex" />
+
+    <CheckBox
+        android:id="@+id/chckMAHLI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mars Hand Lens Imager" />
+
+    <CheckBox
+        android:id="@+id/chckMARDI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mars Descent Imager" />
+
+    <CheckBox
+        android:id="@+id/chckNAVCAM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Navigation Camera" />
+
+    <CheckBox
+        android:id="@+id/chckPANCAM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Panoramic Camera" />
+
+    <CheckBox
+        android:id="@+id/chckMINITES"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Miniature Thermal Emission Spectrometer (Mini-TES)" />
+
+</LinearLayout>
